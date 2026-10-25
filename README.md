@@ -1,2 +1,2 @@
-# halisaha
-project renting halisaha
+Halısaha kiralama sitesi projesi
+https://drive.google.com/file/d/1fCDlA2Y22MtcCMVDcLxm0AhiOBEq-yzi/view?usp=drive_link
