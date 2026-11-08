@@ -49,3 +49,53 @@ h1{
 
 
 }
+
+* {
+    box-sizing: border-box;
+}
+
+.top {
+    height: 45px;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+.balon {
+    background-color: white;
+    width: 90%;
+    max-width: 700px;
+    padding: 25px 30px;
+    margin: 30px auto;
+    border: 3px solid black;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.balon h2 {
+    margin-top: 0;
+    font-size: 36px;
+    color: darkgreen;
+}
+
+.balon p {
+    margin: 0;
+    font-size: 24px;
+    line-height: 1.6;
+}
+
+.rez-buton {
+    display: inline-block;
+    background-color: darkgreen;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 20px 0 40px;
+    transition: 0.3s;
+}
+
+.rez-buton:hover {
+    background-color: black;
+    transform: scale(1.05);
+}

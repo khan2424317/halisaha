@@ -1,32 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GOLBASI HALISAHA</title>
+    <title>İletişim</title>
+    <link rel="stylesheet" href="sayfalar.css">
+    <link rel="stylesheet" href="iletisim.css">
 </head>
-<form id="form">
-<label for="isim">İsim</label>
-<input type="text" id="isim" value="">
-<br>
-<label for="soyisim">Soyisim</label>
-<input type="text" id="soyisim" value="">
-<br>
-<label for="no">İletisim Numarasi</label>
-<input type="number" id="no">
-<br>
-<label for="email">email</label>
-<input type="email" id="email">
-<br>
-<label for="date">Doğum Tarihi</label>
-<input type="date" id="date">
-<br>
-<p>Başka eklemek isteğinizi aşağıdaki kutuya yazınız.</p>
-<textarea></textarea>
-
-
-</form>
 <body>
-    
+
+<div class="hakkimizda">
+    <h1>İletişim <img src="top.jpg" class="top" alt="top-logo"></h1>
+    <div class="hakkimizdasayfa">
+        <a class="box" href="halisaha.html">Ana Sayfa</a>
+        <a class="box" href="hakkimizda.html">Hakkımızda</a>
+        <a class="box" href="halisaha.html#halisahalar">Halısahalar</a>
+    </div>
+</div>
+
+<form id="form" class="balon">
+    <h2>Bize Ulaşın</h2>
+
+    <label for="isim">İsim</label>
+    <input type="text" id="isim" required>
+
+    <label for="soyisim">Soyisim</label>
+    <input type="text" id="soyisim" required>
+
+    <label for="no">İletişim Numarası</label>
+    <input type="tel" id="no" >
+
+    <label for="email">E-posta</label>
+    <input type="email" id="email" required>
+
+    <label for="date">Doğum Tarihi</label>
+    <input type="date" id="date">
+
+    <label for="mesaj">Eklemek istedikleriniz</label>
+    <textarea id="mesaj"></textarea>
+
+    <button type="submit" class="gonder">Gönder</button>
+</form>
+
 </body>
 </html>

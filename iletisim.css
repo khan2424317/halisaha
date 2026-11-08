@@ -1,0 +1,41 @@
+#form {
+    width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid black;
+    text-align: left;
+}
+
+#form h2 {
+    text-align: center;
+    color: darkgreen;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: darkgreen;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: black;
+}
