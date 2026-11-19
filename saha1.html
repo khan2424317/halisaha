@@ -4,145 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GOLBASI HALISAHA</title>
-    <link rel="stylesheet" href=saha.css>
+    <link rel="stylesheet" href="saha.css">
+    <script src="ortak.js" defer></script>
+    <script src="saha.js" defer></script>
 </head>
 <body>
-    <a href="halisaha.html">
-    <img src="home.jpg" alt="Geri donus butonu" width="40"></a>
-    <h1>Kiralamak istediğiniz günü ve saati seçin!</h1>
-    <table border="1">
-    <tr>
-        <th>Gün</th>
-        <th>Saat</th>
-    </tr>
-    <tr>
-        <td>
-            <input type="radio" id="pzt" name="gun" value="pazartesi">
-            <label for="pzt">Pazartesi</label>
-        </td>
-        <td>
-            <select id="saat_pzt" name="saat_pzt">
-                <option value="4">16.00</option>
-                <option value="5">17.00</option>
-                <option value="6">18.00</option>
-                <option value="7">19.00</option>
-                <option value="8">20.00</option>
-                <option value="9">21.00</option>
-                <option value="10">22.00</option>
-                <option value="11">23.00</option>
-            </select>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <input type="radio" id="sali" name="gun" value="sali">
-            <label for="sali">Salı</label>
-        </td>
-        <td>
-            <select id="saat_sali" name="saat_sali">
-                <option value="4">16.00</option>
-                <option value="5">17.00</option>
-                <option value="6">18.00</option>
-                <option value="7">19.00</option>
-                <option value="8">20.00</option>
-                <option value="9">21.00</option>
-                <option value="10">22.00</option>
-                <option value="11">23.00</option>
-            </select>
-        </td>
-    </tr>
+    <div class="kapsayici">
+    <h1 id="ana-baslik">GÖLBAŞI HALISAHA
+    <img src="top.jpg" class="top" alt="top-logo">
+    </h1>
+    <div class="menu">
+        <a class="box" href="halisaha.html">Ana Sayfa</a>
+        <a class="box" href="hakkimizda.html">Hakkımızda</a>
+        <a class="box" href="iletisim.html">İletişim</a>
+        <button id="tema" class="box">Karanlık</button>
+    </div>
+</div>
+    <div class="kart">
+    <h2>Kiralamak istediğiniz günü ve saati seçin!</h2>
+
+    <table>
         <tr>
-            <td>
-            <input type="radio" id="carsamba" name="gun" value="carsamba">
-            <label for="carsamba">Carsamba</label>
-        </td>
-        <td>
-            <select id="saat_carsamba" name="saat_carsamba">
-                <option value="4">16.00</option>
-                <option value="5">17.00</option>
-                <option value="6">18.00</option>
-                <option value="7">19.00</option>
-                <option value="8">20.00</option>
-                <option value="9">21.00</option>
-                <option value="10">22.00</option>
-                <option value="11">23.00</option>
-            </select>
-        </td>
+            <th>Gün</th>
         </tr>
         <tr>
             <td>
-            <input type="radio" id="persembe" name="gun" value="persembe">
-            <label for="persembe">Persembe</label>
-        </td>
-        <td>
-            <select id="saat_prs" name="saat_prs">
-                <option value="4">16.00</option>
-                <option value="5">17.00</option>
-                <option value="6">18.00</option>
-                <option value="7">19.00</option>
-                <option value="8">20.00</option>
-                <option value="9">21.00</option>
-                <option value="10">22.00</option>
-                <option value="11">23.00</option>
-            </select>
-        </td>
+                <input type="radio" id="pzt" name="gun">
+                <label for="pzt">Pazartesi</label>
+            </td>
         </tr>
         <tr>
             <td>
-            <input type="radio" id="cuma" name="gun" value="cuma">
-            <label for="cuma">Cuma</label>
-        </td>
-        <td>
-            <select id="saat_cuma" name="saat_cuma">
-                <option value="4">16.00</option>
-                <option value="5">17.00</option>
-                <option value="6">18.00</option>
-                <option value="7">19.00</option>
-                <option value="8">20.00</option>
-                <option value="9">21.00</option>
-                <option value="10">22.00</option>
-                <option value="11">23.00</option>
-            </select>
-        </td>
+                <input type="radio" id="sali" name="gun">
+                <label for="sali">Salı</label>
+            </td>
         </tr>
         <tr>
             <td>
-            <input type="radio" id="cumartesi" name="gun" value="cumartesi">
-            <label for="cumartesi">Cumartesi</label>
-        </td>
-        <td>
-            <select id="saat_cmt" name="saat_cmt">
-                <option value="4">16.00</option>
-                <option value="5">17.00</option>
-                <option value="6">18.00</option>
-                <option value="7">19.00</option>
-                <option value="8">20.00</option>
-                <option value="9">21.00</option>
-                <option value="10">22.00</option>
-                <option value="11">23.00</option>
-            </select>
-        </td>
+                <input type="radio" id="carsamba" name="gun">
+                <label for="carsamba">Çarşamba</label>
+            </td>
         </tr>
         <tr>
             <td>
-            <input type="radio" id="pazar" name="gun" value="pazar">
-            <label for="pazar">Pazar</label>
-        </td>
-        <td>
-            <select id="saat_pzr" name="saat_pzr">
-                <option value="4">16.00</option>
-                <option value="5">17.00</option>
-                <option value="6">18.00</option>
-                <option value="7">19.00</option>
-                <option value="8">20.00</option>
-                <option value="9">21.00</option>
-                <option value="10">22.00</option>
-                <option value="11">23.00</option>
-            </select>
-        </td>
+                <input type="radio" id="persembe" name="gun">
+                <label for="persembe">Perşembe</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="radio" id="cuma" name="gun">
+                <label for="cuma">Cuma</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="radio" id="cumartesi" name="gun">
+                <label for="cumartesi">Cumartesi</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="radio" id="pazar" name="gun">
+                <label for="pazar">Pazar</label>
+            </td>
         </tr>
     </table>
-    <br>
-    <button type="submit">Kaydet</button>
+
+    <p>
+        Saat:
+        <button id="saatAzalt" class="kucuk">−</button>
+        <span id="saatYazi">16</span>.00
+        <button id="saatArtir" class="kucuk">+</button>
+    </p>
+
+    <button id="kaydet" type="submit">Kaydet</button>
+    <p id="mesaj"></p>
+</div>
 </body>
 </html>

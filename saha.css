@@ -7,3 +7,182 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
 }
+
+.kart {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 90%;
+    max-width: 450px;
+    margin: 40px auto;
+    padding: 20px;
+     border: none;               /* çerçeve hiç olmasın */
+    border: 1px solid gray;     /* daha yumuşak, ince gri */
+}
+
+.kart h1,
+.kart h2 {
+    font-size: 28px;
+    text-align: center;
+    color: darkgreen;
+    margin-top: 0;
+}
+
+.kart table {
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+}
+
+.kart th,
+.kart td {
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid gray;
+    text-align: left;
+    font-size: 20px;
+}
+
+.kart tr:hover {
+    background-color: #e0e0e0;
+}
+
+.kart input {
+    margin-right: 8px;
+}
+
+.kart select {
+    font-size: 18px;
+    padding: 4px;
+}
+
+.kart button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 30px;
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.kart button:hover {
+    background-color: black;
+}
+
+
+button.box {
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+}
+
+body.karanlik {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+body.karanlik p {
+    color: white;
+}
+
+body.karanlik .aciklama,
+body.karanlik .aciklama2 {
+    background-color: #333333;
+}
+
+body.karanlik .aciklama2,
+body.karanlik .regularshow {
+    border-color: white;
+}
+
+body.karanlik p a {
+    color: lightgreen;
+}
+
+
+.kapsayici {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    line-height: 1.6;
+}
+
+#ana-baslik {
+    color: white;
+    text-align: left;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+.top {
+    height: 50px;
+    vertical-align: middle;
+    border-radius: 1000px;
+    background-color: black;
+    clip-path: circle(45%);
+}
+
+.menu {
+    text-align: right;
+}
+
+.box {
+    background-color: white;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: 10px auto;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+.box:hover {
+    transition: 0.3s;
+    background-color: aqua;
+    transform: scale(1.2);
+}
+
+button.box {
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+}
+
+body.karanlik .kart {
+    background-color: rgba(40, 40, 40, 0.92);
+    color: white;
+    border-color: white;
+}
+
+body.karanlik .kart h1,
+body.karanlik .kart h2 {
+    color: lightgreen;
+}
+
+body.karanlik .kart tr:hover {
+    background-color: #555555;
+}
+
+#mesaj {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.kart button.kucuk {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 4px 14px;
+}
+
+#mesaj {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+}

@@ -99,3 +99,29 @@ h1{
     background-color: black;
     transform: scale(1.05);
 }
+
+button.box {
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+}
+
+body.karanlik {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+body.karanlik p {
+    color: white;
+}
+
+body.karanlik .balon,
+body.karanlik #form {
+    background-color: #333333;
+    border-color: white;
+}
+
+body.karanlik .balon h2,
+body.karanlik #form h2 {
+    color: lightgreen;
+}
